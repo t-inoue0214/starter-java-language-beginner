@@ -24,7 +24,7 @@ public class SortLogic {
         System.out.println("ソート前: " + numbers);
 
         // Collections.sort() という魔法のメソッドを使う
-        Collections.sort(numbers);
+        Collections.sort(numbers); // 参照渡しであることに注目
         
         System.out.println("ソート後: " + numbers); // 小さい順(昇順)になる
 
